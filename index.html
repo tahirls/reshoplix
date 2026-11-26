@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reshoplix – Indian Ethnic Wear</title>
+<style>
+:root{--bg:#fff;--tx:#1d1d1f;--mu:#6b6b70;--ln:#e8e4e2;--sf:#f7f3f1;--mr:#7A0C1E;--gd:#f5a623;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141214;--tx:#f2eeee;--mu:#a9a3a5;--ln:#3a3437;--sf:#1f1b1d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141214;--tx:#f2eeee;--mu:#a9a3a5;--ln:#3a3437;--sf:#1f1b1d;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+.w{max-width:1240px;margin:0 auto;padding:0 20px}
+.ann{background:var(--mr);color:#fff;text-align:center;font-size:12.5px;padding:7px 10px;letter-spacing:.03em}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--ln);z-index:20}
+header .w{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{font:italic 700 30px Georgia,"Times New Roman",serif;color:var(--mr)}
+.logo small{display:block;font:500 8px Inter,sans-serif;letter-spacing:.5em;color:var(--mu);margin-top:-4px;text-align:right}
+nav{display:flex;gap:26px;font-size:13.5px}nav a:hover{color:var(--mr)}
+.ic{display:flex;gap:16px}.ic span{position:relative;font-size:18px;cursor:pointer}
+.ic b{position:absolute;top:-6px;right:-9px;background:var(--mr);color:#fff;border-radius:9px;font-size:10px;padding:0 5px}
+.hero{background:linear-gradient(110deg,#6a0a1a,#a3182f 45%,#e8c7a0);color:#fff;min-height:420px;display:grid;place-items:center;text-align:center;padding:40px 20px}
+.hero small{letter-spacing:.35em;font-size:13px}.hero h1{font:italic 700 clamp(48px,9vw,96px)/1 Georgia,serif;margin:8px 0}
+.badge{display:inline-block;border:2px solid #f3d9a4;color:#f3d9a4;padding:6px 22px;border-radius:40px;font-weight:700;font-size:clamp(16px,3vw,26px);letter-spacing:.06em}
+.btn{display:inline-block;background:var(--mr);color:#fff;border:0;padding:13px 34px;font-weight:600;letter-spacing:.12em;font-size:13px;border-radius:2px}
+.hero .btn{background:#fff;color:var(--mr);margin-top:22px}
+.cats{display:flex;gap:34px;justify-content:center;padding:34px 0;flex-wrap:wrap}
+.cat{text-align:center;font-size:12px;font-weight:600;letter-spacing:.08em}
+.cat i{display:block;width:104px;height:104px;border-radius:50%;margin:0 auto 8px;border:3px solid var(--sf)}
+h2.t{text-align:center;font:600 22px Georgia,serif;margin:46px 0 4px}p.sub{text-align:center;color:var(--mu);font-size:13px;margin:0 0 22px;font-style:italic}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.g3{grid-template-columns:repeat(3,1fr)}
+.card .im{position:relative;aspect-ratio:3/4;border-radius:3px;overflow:hidden}
+.im:after{content:"";position:absolute;left:50%;bottom:0;width:46%;height:78%;transform:translateX(-50%);background:rgba(255,255,255,.2);border-radius:50% 50% 8% 8%/22% 22% 0 0}
+.disc{position:absolute;top:8px;right:8px;background:var(--mr);color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:3px;z-index:1}
+.card h3{font-size:13.5px;font-weight:500;margin:10px 0 3px;line-height:1.35}
+.st{color:var(--gd);font-size:13px}.st em{color:var(--mu);font-style:normal;margin-left:4px}
+.pr s{color:var(--mu);font-size:12.5px;margin-right:6px}.pr b{font-size:15px}
+.sw{display:flex;gap:5px;margin-top:6px}.sw i{width:13px;height:13px;border-radius:50%;border:1px solid var(--ln)}
+.c{text-align:center;margin:26px 0}.pill{display:inline-block;border:1.5px solid var(--tx);padding:9px 34px;border-radius:30px;font-size:12px;font-weight:600;letter-spacing:.12em;background:none;color:var(--tx)}
+.pill:hover{background:var(--mr);border-color:var(--mr);color:#fff}
+.dots{text-align:center;margin-top:18px}.dots i{display:inline-block;width:9px;height:9px;margin:0 3px;background:var(--ln)}.dots i:first-child{background:var(--tx)}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:56px 0 10px;padding:26px 0;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln);text-align:center}
+.trust svg{width:34px;height:34px;stroke:var(--mu);fill:none;stroke-width:1.4}.trust b{display:block;font-size:11.5px;letter-spacing:.1em;margin:6px 0 2px}.trust span{font-size:12px;color:var(--mu)}
+.rv{display:flex;gap:40px;align-items:center;flex-wrap:wrap;padding:20px 0;border-bottom:1px solid var(--ln)}
+.big{font-size:46px;font-weight:700;line-height:1}.bars{flex:1;min-width:220px;max-width:380px;font-size:12.5px}
+.bars div{display:flex;align-items:center;gap:8px}.bars span{flex:1;height:7px;background:var(--ln);border-radius:4px;overflow:hidden}.bars span i{display:block;height:100%;background:var(--gd)}
+.outl{border:1px solid var(--ln);background:var(--bg);color:var(--tx);padding:10px 20px;font-size:13px;font-weight:600;margin-left:auto}
+.mas{columns:4;column-gap:16px;margin-top:22px}
+.rc{break-inside:avoid;background:var(--bg);box-shadow:0 1px 6px rgba(0,0,0,.12);margin-bottom:16px;padding:14px;font-size:13.5px;border-radius:3px}
+.rc .ph{aspect-ratio:var(--r,4/5);border-radius:3px;margin:-14px -14px 12px;position:relative}
+.rc .ph.v:before{content:"▶";position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:30px}
+.ok{color:var(--mu);font-size:12px}.ok:before{content:"✔ ";color:var(--tx)}.rc p{margin:6px 0 0}
+.pg{text-align:center;margin:20px 0;font-size:13px}.pg span{display:inline-block;min-width:28px;padding:3px;cursor:pointer}.pg .on{background:var(--tx);color:var(--bg)}
+footer{background:var(--mr);color:#fff;margin-top:60px;padding:46px 0 36px}
+footer .logo{color:#fff;display:block;text-align:center;font-size:42px;margin-bottom:34px}footer .logo small{color:#e9c9cf;text-align:center}
+.fc{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.fc h4{margin:0 0 14px;font-size:14px;letter-spacing:.06em}.fc a,.fc p{display:block;font-size:13.5px;margin:0 0 9px;opacity:.92}.fc a:hover{text-decoration:underline}
+.soc{display:flex;gap:10px}.soc i{width:34px;height:34px;background:rgba(255,255,255,.18);display:grid;place-items:center;font-style:normal;font-size:12px;font-weight:700;border-radius:4px}
+.crumb{background:var(--sf);font-size:12.5px;color:var(--mu);padding:12px 0}
+.pdp{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;padding:30px 0}
+.main{aspect-ratio:4/5;border-radius:3px;position:relative}.main:after{content:"";position:absolute;left:50%;bottom:0;width:46%;height:82%;transform:translateX(-50%);background:rgba(255,255,255,.22);border-radius:50% 50% 8% 8%/18% 18% 0 0}
+.ar{position:absolute;top:50%;width:38px;height:38px;border-radius:50%;background:var(--bg);color:var(--tx);border:1px solid var(--ln);z-index:2}.zm{position:absolute;right:12px;bottom:12px;z-index:2;background:var(--bg);width:36px;height:36px;display:grid;place-items:center;border-radius:50%}
+.th{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px}.th i{aspect-ratio:3/4;border-radius:3px;border:2px solid transparent;cursor:pointer}.th i:first-child{border-color:var(--mr)}
+.pdp h1{font-size:26px;margin:0 0 6px}.pp{font-size:26px;font-weight:700;color:var(--mr)}.pp s{font-size:17px;color:var(--mu);font-weight:400;margin-right:8px}
+.sv{background:var(--mr);color:#fff;font-size:12px;padding:3px 9px;border-radius:3px;vertical-align:middle;margin-left:8px;font-weight:600}
+.hl{list-style:none;padding:0;margin:14px 0;color:var(--mu);font-size:13.5px}.hl li{margin:4px 0}.hl li:before{content:"✓";color:var(--mr);margin-right:8px;font-weight:700}
+.sz{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 18px}.sz button{border:1px solid var(--ln);background:var(--bg);color:var(--tx);border-radius:30px;padding:8px 16px;font-size:13px}.sz button.on{border:2px solid var(--mr);background:var(--mr);color:#fff}
+.row{display:flex;gap:10px;margin-bottom:10px}.qty{display:flex;align-items:center;border:1px solid var(--ln);border-radius:3px}.qty button{border:0;background:none;color:var(--tx);width:36px;height:46px;font-size:18px}.qty span{min-width:26px;text-align:center}
+.row .btn{flex:1;text-align:center;border-radius:3px}.row .hrt{width:46px;border:1px solid var(--ln);background:var(--bg);color:var(--mr);font-size:20px;border-radius:50%}
+.buy{display:block;width:100%;background:var(--tx);color:var(--bg);border:0;padding:14px;font-weight:600;letter-spacing:.12em;font-size:13px;border-radius:3px}
+.pay{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0;font-size:11px;font-weight:700}.pay span{border:1px solid var(--ln);padding:6px 11px;border-radius:4px}
+.offer{border:1.5px dashed var(--mr);border-radius:6px;padding:12px 14px;display:flex;gap:12px;align-items:center;margin:14px 0}.offer b{color:var(--mr)}
+.acc{margin-top:8px}.acc div{display:flex;justify-content:space-between;align-items:center;background:var(--sf);padding:10px 0 10px 14px;font-weight:600;font-size:14px;cursor:pointer}.acc div span{background:var(--tx);color:var(--bg);width:40px;text-align:center;font-size:20px;margin:-10px 0}
+.acc p{display:none;font-size:13.5px;color:var(--mu);margin:10px 14px}.acc.o p{display:block}
+.rel{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.hide{display:none}
+@media(max-width:900px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr);gap:14px}.g3{grid-template-columns:1fr}.rel{grid-template-columns:repeat(2,1fr)}.pdp{grid-template-columns:1fr;gap:20px}.mas{columns:2}.trust{grid-template-columns:repeat(2,1fr)}.fc{grid-template-columns:1fr;text-align:center}.soc{justify-content:center}.cats{gap:18px}.cat i{width:78px;height:78px}.outl{margin-left:0}}
+.mb{display:none;font-size:22px;cursor:pointer}@media(max-width:900px){.mb{display:block}}
+</style></head><body>
+<div class="ann">Free Shipping &amp; Easy Returns on Orders Above ₹999 | Shop Reshoplix</div>
+<header><div class="w"><span class="mb">☰</span>
+<a class="logo" href="#home">Reshoplix<small>E T H N I C</small></a>
+<nav><a href="#home">Home</a><a href="#home">New Arrivals</a><a href="#home">Ethnic Wear</a><a href="#home">Festive Edit</a><a href="#home">Best Sellers</a><a href="#home">About</a></nav>
+<div class="ic"><span>⌕</span><span>☺</span><span>♡<b>0</b></span><span>🛍<b>2</b></span></div></div></header>
+
+<main id="home">
+<section class="hero"><div><small>✦ FESTIVE SEASON ✦</small><h1>Reshoplix</h1><span class="badge">FESTIVE SPECIAL OFFER – UP TO 50% OFF</span><br><a class="btn" href="#product">SHOP NOW</a></div></section>
+<div class="w">
+<div class="cats" id="cats"></div>
+<h2 class="t">Trending Best Sellers</h2><p class="sub">Most loved this week</p>
+<div class="grid" id="g1"></div><div class="c"><button class="pill">VIEW ALL</button></div>
+<h2 class="t">Curated Collection</h2><p class="sub">Handpicked festive silhouettes</p>
+<div class="grid g3" id="g2"></div><div class="dots"><i></i><i></i><i></i><i></i></div><div class="c"><button class="pill">VIEW ALL</button></div>
+<h2 class="t">Shop by Style</h2><p class="sub">Lehengas, gowns &amp; more</p>
+<div class="grid g3" id="g3"></div>
+<div class="trust" id="trust"></div>
+<h2 class="t" style="text-align:left">Customer Reviews</h2>
+<div id="rv1"></div>
+</div></main>
+
+<main id="product" class="hide">
+<div class="crumb"><div class="w">Home / New Arrivals / Reshoplix Heavy Pure Silk Gown</div></div>
+<div class="w"><div class="pdp">
+<div><div class="main" style="background:linear-gradient(160deg,#efe3d6,#d9a9a0)"><button class="ar" style="left:12px">‹</button><button class="ar" style="right:12px">›</button><span class="zm">⤢</span></div><div class="th" id="th"></div></div>
+<div><h1>Reshoplix Heavy Pure Silk Gown</h1>
+<div class="st">★★★★★ <span style="color:var(--tx)">4.8 ★ | 62 reviews</span></div>
+<div class="pp" style="margin-top:8px"><s>₹5,400.00</s>₹2,399.00<span class="sv">Save 55%</span></div>
+<ul class="hl"><li>Fast dispatch across India (4–7 days)</li><li>100% quality assured fabric</li><li>Easy 7-day return policy</li><li>COD available under ₹3,500</li></ul>
+<b style="font-size:12.5px;letter-spacing:.05em">SIZE: CHOOSE AN OPTION</b> <a href="#product" style="font-size:12.5px;text-decoration:underline;color:var(--mr)">Size Guide</a>
+<div class="sz" id="sz"></div>
+<div class="row"><div class="qty"><button onclick="q(-1)">−</button><span id="qv">1</span><button onclick="q(1)">+</button></div><a class="btn" href="#product">ADD TO CART</a><button class="hrt">♡</button></div>
+<button class="buy">BUY IT NOW</button>
+<div class="pay"><span>UPI</span><span>VISA</span><span>Mastercard</span><span>RuPay</span><span>NetBanking</span><span>Wallets</span></div>
+<div class="offer"><span style="font-size:24px">🎁</span><div><b>Extra ₹100 OFF + Free Express Delivery</b><br><span class="ok" style="color:var(--mu)">on Prepaid Orders · no coupon required</span></div></div>
+<div class="acc" onclick="this.classList.toggle('o')"><div>Description <span>+</span></div><p>Heavy pure silk anarkali gown with floral thread embroidery and matching dupatta. Dry clean recommended. Ships in 24 hours; prepaid orders delivered in 4–7 days.</p></div>
+</div></div>
+<h2 class="t" style="text-align:left;margin-top:20px">Customer Reviews</h2><div id="rv2"></div>
+<h2 class="t" style="margin-top:56px">You may also like</h2><div class="rel" id="rel"></div>
+</div></main>
+
+<footer><div class="w"><a class="logo" href="#home">Reshoplix<small>E T H N I C</small></a>
+<div class="fc"><div><h4>Contact Us</h4><p>💬 WhatsApp: +91 98XXX XXXXX</p><p>✉ support@reshoplix.com</p><div class="soc"><i>IG</i><i>YT</i><i>FB</i></div></div>
+<div><h4>CUSTOMER SUPPORT</h4><a>Track Order</a><a>Privacy Policy</a><a>Refund / Return Policy</a><a>Shipping Policy</a><a>Terms &amp; Conditions</a><a>Contact Us</a></div>
+<div><h4>Shop / Policies</h4><a>New Arrivals</a><a>Best Sellers</a><a>Size Guide</a><a>FAQ</a><a>About Reshoplix</a></div></div>
+<p style="text-align:center;font-size:12px;opacity:.7;margin-top:30px">© 2026 Reshoplix · reshoplix.com</p></div></footer>
+
+<script>
+const $=id=>document.getElementById(id),fm=n=>'₹'+n.toLocaleString('en-IN');
+const H=[[345,20],[20,40],[330,30],[10,45],[270,25],[35,35],[300,28],[0,38]];
+const bg=i=>{const[h,s]=H[i%8];return`linear-gradient(160deg,hsl(${h},55%,${78-s/4}%),hsl(${h+20},50%,${45}%))`};
+const P=[["Alveera Premium Anarkali Suit Set",6999,3299,4.8,23],["Ivory & Maroon Elegant Top Bottom Set",6999,2799,4.7,19],["Neha Heavy Vichitra Anarkali Suit",6000,2899,4.9,57],["Aniska Lakhnavi Embroidered Anarkali",7999,3499,4.8,72],["Aarushi Heavy Pure Silk Gown",5400,2899,4.8,52],["Reshoplix Black Anarkali Suit Set",9999,2999,4.6,16],["Manyata Mehrooni Red Anarkali Set",6000,2699,4.7,48],["Vidhya Premium Anarkali Suit Set",6000,2699,4.5,10]];
+const cd=(p,i,sw=1)=>`<a class="card" href="#product"><div class="im" style="background:${bg(i)}"><span class="disc">-${Math.round((1-p[2]/p[1])*100)}%</span></div><h3>${p[0]}</h3><div class="st">★★★★★<em>${p[3]} (${p[4]})</em></div><div class="pr"><s>${fm(p[1])}</s><b>${fm(p[2])}</b></div>${sw?`<div class="sw">${[0,3,5].map(k=>`<i style="background:hsl(${H[(i+k)%8][0]},55%,40%)"></i>`).join('')}</div>`:''}</a>`;
+$('g1').innerHTML=P.slice(0,8).map(cd).join('');
+$('g2').innerHTML=[3,5,1].map(i=>cd(P[i],i+2,0)).join('');
+$('g3').innerHTML=[["Lehenga Choli","Festive crafts"],["Gowns","Evening drama"],["Printed Suit Sets","Everyday luxe"]].map((c,i)=>`<div><div class="im card" style="aspect-ratio:4/3;background:${bg(i+4)};display:flex;align-items:flex-end;padding:18px;color:#fff;border-radius:3px"><div><b style="font:600 20px Georgia,serif">${c[0]}</b><br>${c[1]}</div></div><div style="margin-top:14px">${cd(P[i+4],i+4)}</div></div>`).join('');
+$('cats').innerHTML=["Kurtis","Lehengas","Gowns","Festive Sets","Anarkali"].map((c,i)=>`<a class="cat" href="#home"><i style="background:${bg(i)}"></i>${c.toUpperCase()}</a>`).join('');
+const I=d=>`<svg viewBox="0 0 24 24"><path d="${d}"/></svg>`;
+$('trust').innerHTML=[["PAN-INDIA SHIPPING","Delivered to 19,000+ pincodes","M3 7h11v9H3zM14 10h4l3 3v3h-7zM7 19a1.5 1.5 0 100-.1M17 19a1.5 1.5 0 100-.1"],["QUALITY CHECKED","Every piece inspected","M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6zM8.500 12l2.500 2.500 4.500-5"],["SECURE PAYMENTS","UPI, cards, wallets, COD","M4 10h16v10H4zM8 10V7a4 4 0 018 0v3"],["EASY SUPPORT","WhatsApp help 7 days a week","M4 5h16v11H9l-5 4z"]].map(t=>`<div>${I(t[2])}<b>${t[0]}</b><span>${t[1]}</span></div>`).join('');
+const R=[["Anudita K.","The fabric quality is just amazing! Everyone asking about my dress.",1,"4/5"],["Priyanka M.","Just love it!",0,""],["Lavanya","Amazing suit, perfect fit.",0,"3/4"],["Shruti A.","Lovely… Bahut he accha ahaya hai. It’s too good yr!",0,""],["Priya B.","Sooo beautiful dress, thank you soooo much Reshoplix.",1,"4/5"],["Arundhati C.","Purchased for Durga Pooja special dance performance. It’s really so elegant.",0,"3/4"],["Navneen K.","Itssss sooo perfect! You can seeee the photosssss.",0,""],["Riya S.","Amazing work and fabric just as in picture.",0,"4/5"]];
+const rv=(n,t,pk)=>`<div class="rv"><div style="text-align:center"><div class="big">4.8</div><div class="st">★★★★★</div><small>${n} reviews</small></div><div class="bars">${[[5,85],[4,10],[3,3],[2,1],[1,0]].map(r=>`<div>${r[0]} Star<span><i style="width:${r[1]}%"></i></span></div>`).join('')}</div><button class="outl">Write a review</button></div><div class="mas">${R.slice(0,t).map((r,i)=>`<div class="rc">${r[3]?`<div class="ph${r[2]?' v':''}" style="--r:${r[3]};background:${bg(i)}"></div>`:''}<div class="st">★★★★★</div><b>${r[0]}</b><div class="ok">Verified buyer</div><p>${r[1]}</p></div>`).join('')}</div><div class="pg"><span class="on">1</span><span>2</span><span>3</span><span>4</span><span>›</span></div>`;
+$('rv1').innerHTML=rv('2,018',8);$('rv2').innerHTML=rv('62',7);
+$('th').innerHTML=[0,1,2,3,4].map(i=>`<i style="background:${bg(i)}"></i>`).join('');
+$('sz').innerHTML=["XS","S","M","L","XL","XXL","Custom"].map((s,i)=>`<button class="${i==2?'on':''}" onclick="document.querySelectorAll('#sz button').forEach(b=>b.classList.remove('on'));this.classList.add('on')">${s}</button>`).join('');
+$('rel').innerHTML=[3,6,7,1,5,0].map((i,k)=>cd(P[i],i+k)).join('');
+let n=1;function q(d){n=Math.max(1,n+d);$('qv').textContent=n}
+function route(){const p=location.hash==='#product';$('home').classList.toggle('hide',p);$('product').classList.toggle('hide',!p);scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+</script></body></html>
